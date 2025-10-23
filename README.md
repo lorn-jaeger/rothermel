@@ -1,3 +1,6 @@
+# Parallel Project - CSCI 491
+
+
 > [!NOTE]
 > *AI Use Summary*
 > No AI use for idea generation, parallelization strategy,
