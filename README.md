@@ -1,7 +1,10 @@
 > [!NOTE]
-> I may modify this code after the turn-in date as I am
-> planning to continue work on this. If you would like the
-> initial state go here. 
+> *AI Use Summary*
+> No AI use for idea generation, parallelization strategy,
+> or implementation of numerical algorithms. I did use
+> ChatGPT 5 to take some of my nastier MPI and numpy code
+> and show me how to implement them using the libraries as
+> intended. Also for quick plotting and printing code.
 
 
 # Implementation

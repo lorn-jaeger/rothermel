@@ -44,7 +44,7 @@ def setup_cart(prows, pcols):
     return ix, iy, left, right, up, down
 
 def local_shape(nx, ny, prows, pcols):
-    assert nx % pcols == 0 and ny % prows == 0, "For simplicity, require divisible dims."
+    assert nx % pcols == 0 and ny % prows == 0, "wrong dims"
     nx_local = nx // pcols  
     ny_local = ny // prows  
     return nx_local, ny_local
@@ -123,7 +123,7 @@ def main():
         prows, pcols = factor_size(size)
     else:
         prows, pcols = args.prows, args.pcols
-        assert prows*pcols == size, "prows*pcols must equal MPI size"
+        assert prows*pcols == size, "remember prows*pcols"
 
     nx_local, ny_local = local_shape(args.nx, args.ny, prows, pcols)
     ix, iy, left, right, up, down = setup_cart(prows, pcols)
